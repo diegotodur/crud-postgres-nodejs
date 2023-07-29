@@ -1,0 +1,59 @@
+form {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    min-height: 400px;
+  }
+  
+  form legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  form fieldset {
+    border: none;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="number"],
+  form input[type="text"],
+  form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 40px; 
+  }
+
+  button.btn {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+  }
+  
+  table {
+    width: 83%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #ccc;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  

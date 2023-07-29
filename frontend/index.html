@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <title>CRUD PEN</title>
+</head>
+
+<body>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <form id="insertar">
+          <fieldset>
+            <legend>Agregar nuevo ejercicio</legend>
+            Nombre: <input type="text" name="nombre" required /> <br />
+            Series: <input type="number" name="series" min="1" max="999" required /> <br />
+            Repeticiones: <input type="number" name="repeticiones" min="1" max="999" required /> <br />
+            Descanso: <input type="number" name="descanso" min="1" max="999" required /> <br />
+            <button class="btn btn-secondary">Agregar</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="col">
+        <form id="editar">
+          <fieldset>
+            <legend>Editar ejercicio</legend>
+            Nombre:
+            <select required>
+              <option selected disabled>Seleccione un ejercicio</option>
+            </select>
+            <br />
+            Series: <input type="number" name="series" min="1" max="999" required /> <br />
+            Repeticiones: <input type="number" name="repeticiones" min="1" max="999" required /> <br />
+            Descanso: <input type="number" name="descanso" min="1" max="999" required /> <br />
+            <button class="btn btn-secondary">Editar</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="col">
+        <form id="eliminar">
+          <fieldset>
+            <legend>Eliminar ejercicio</legend>
+            Nombre:
+            <select required>
+              <option selected disabled>Seleccione un ejercicio</option>
+            </select>
+            <br />
+            <button class="btn btn-secondary">Eliminar</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <th>Nombre</th>
+      <th>Series</th>
+      <th>Repeticiones</th>
+      <th>Descanso</th>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+  <script src="/utils/utils.js"></script>
+</body>
+
+</html>
