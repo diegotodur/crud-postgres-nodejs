@@ -1,9 +1,20 @@
-Para ejecutar correctamente el proyecto debe abrir la terminal en la raiz del proyecto y ejecutar:
+# Proyecto CRUD con Node.js y PostgreSQL
 
-npm run dev
+![Vista previa](https://github.com/itsmisce/crud-postgres-nodejs/blob/main/layout.png)
 
-Para ejecutar el frontend debera posicionarse en la carpeta frontend en la terminal y ejecutar:
+## Ejecución
 
-npm run dev
+Para ejecutar correctamente el proyecto, siga los siguientes pasos:
 
-Esto ejecutara el back y el front, abre en el navegador localhost:3000 y podra testear las funcionalidades.
+1. Abra la terminal en la raíz del proyecto y ejecute el servidor backend con el siguiente comando:
+
+   ```bash
+   npm install
+   npm run dev
+
+2. Luego, para ejecutar el frontend, navegue a la carpeta 'frontend' en la terminal y ejecute el siguiente comando:
+
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
